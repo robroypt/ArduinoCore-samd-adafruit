@@ -40,12 +40,7 @@ int main( void )
 
   delay(1);
 
-#if defined(USE_TINYUSB)
-  TinyUSB_Device_Init(0);
-#elif defined(USBCON)
-  USBDevice.init();
-  USBDevice.attach();
-#endif
+//USB references removed below here
 
   setup();
 
