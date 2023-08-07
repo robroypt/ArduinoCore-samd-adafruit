@@ -7,17 +7,22 @@ for Atmel's SAMD21 and SAMD51 processor (used on the Arduino/Genuino Zero, MKR10
 
 In particular, this adds support for the Adafruit SAMD Boards such as the Feather M0
 
+Note that this fork of adafruit/ArduinoCore-samd has had all USB files and references removed for use with a
+custom board that does not have a USB port. This follows instructions at 
+ - https://github.com/maxgerhardt/ArduinoCore-samd and
+ - https://community.platformio.org/t/custom-samd21e16l-board-disable-usb-for-compiler/23068/2
+
 ## Bugs or Issues
 
 * AREF must be tied to 3.3V for dac to work. This is a bug in the SAMD51 silicon.
-* USB host mode doesn't work yet
 
 If you find a bug you can submit an issue here on github:
 
-https://github.com/adafruit/ArduinoCore-samd
+https://github.com/robroypt/ArduinoCore-samd-adafruit
 
 or if it is an issue with the upstream:
 
+https://github.com/adafruit/ArduinoCore-samd/issues
 https://github.com/arduino/ArduinoCore-samd/issues
 
 Before posting a new issue, please check if the same problem has been already reported by someone else
