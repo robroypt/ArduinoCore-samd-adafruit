@@ -1,3 +1,0 @@
-[submodule "libraries/Adafruit_ZeroDMA"]
-	path = libraries/Adafruit_ZeroDMA
-	url = https://github.com/adafruit/Adafruit_ZeroDMA
